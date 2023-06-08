@@ -22,9 +22,10 @@ touch [fileName.fileType]
 git version 2.33.0
 
 # 8 - Why would you run the command 'git status'?
-To check if changes are staged to commit.
+To check if there are changes staged to commit.
 
 # 9 - What does the command 'git add .' do?
 If there are changes to the project you are working on, this will stage them.  The changes are saved and ready to be pushed to GitHub.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+"git commit" or "git commit -m" to add a message to track changes
