@@ -9,3 +9,25 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+body {
+    background-color: lightcoral;
+    color: blanchedalmond;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+ul {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: blanchedalmond;
+    font-style: italic;
+}
+
