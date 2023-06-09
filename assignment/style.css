@@ -13,21 +13,42 @@
 body {
     background-color: lightcoral;
     color: blanchedalmond;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2%;
+}
+
+header {
+    background-color: blanchedalmond;
+    opacity: 60%;
+    padding: 1px;
 }
 
 h1 {
-    color: lightgoldenrodyellow;
+    color: lightcoral;
     text-align: center;
+    font-size: 50px;
     font-variant: small-caps;
+    letter-spacing: 5px;
+
 }
 
 ul {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    border: 3px solid blanchedalmond;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
 }
 
 p {
-    color: blanchedalmond;
+    color: lightcoral;
     font-style: italic;
+    padding: 10px;
 }
 
+footer {
+    background-color: blanchedalmond;
+    opacity: 60%
+}
