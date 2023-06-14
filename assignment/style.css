@@ -44,6 +44,9 @@ body {
 .leftcolumn h2 {
     padding: 10px;
     text-align: center;
+}
+
+p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
