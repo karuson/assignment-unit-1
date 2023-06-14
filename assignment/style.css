@@ -17,37 +17,34 @@ body {
     padding: 10px;
 }
 
-.header {
+header {
     background-color: blanchedalmond;
     opacity: 60%;
     padding: 5px;
-}
-
-.header h1 {
     color: lightcoral;
     text-align: center;
-    font-size: 50px;
+    font-size: 32px;
     font-variant: small-caps;
     letter-spacing: 5px;
-
 }
+
 
 .leftcolumn {
     float: left;
     width: 55%;
     color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 200%;
      
 }
 
-.leftcolumn h2 {
+h2 {
     padding: 10px;
     text-align: center;
+   
 }
 
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ul {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .rightcolumn {
@@ -57,30 +54,25 @@ p {
     padding-left: 25px;
 }
 
-.rightcolumn h2 {
-    padding: 10px;
-    text-align: center;
-}
-
 .dog {
     display: block;
+    float: left;
     border: solid 3px blanchedalmond;
     border-radius: 50%;
-    padding: 3px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 15%;
+}
+
+.dog p {
+    display: block;
+    float: left;
 }
 
 .coyote {
     display: block;
+    float: right;
     border: solid 3px blanchedalmond;
     border-radius: 50%;
-    padding: 3px;
-    margin-right: 40px;
-}
-
-.rightcolumn p {
-    float: right;
+    margin-right: 15%;
 }
 
 .row::after {
@@ -95,8 +87,11 @@ p {
     text-align: center;
     background-color: blanchedalmond;
     color: lightcoral;
-    font-style: italic;
     font-size: 20px;
     opacity: 60%
+}
+
+p {
+    font-style: italic;
 }
 
