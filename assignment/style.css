@@ -10,6 +10,14 @@
 
 /* Change the font-family of your list */
 
+/* 
+Is using the element to style (versus classes like I had) a good rule of thumb?
+I really just ended up experimenting with classes to get the columned layout but I don't fully understand all of it yet. 
+I appreciate the feedback, I'm finding it's easier to remember things when I'm going back and editing my own code.
+Let me know if there's a better place for my own comments.
+I signed up for a month of Midjourney to play around with, it's pretty insane.  I'll have to pick your brain on prompts sometime
+*/
+
 body {
     background-color: lightcoral;
     color: blanchedalmond;
@@ -28,13 +36,11 @@ header {
     letter-spacing: 5px;
 }
 
-
 .leftcolumn {
     float: left;
     width: 55%;
     color: blanchedalmond;
-    line-height: 200%;
-     
+    line-height: 200%;    
 }
 
 h2 {
@@ -67,7 +73,6 @@ ul {
     border: solid 3px blanchedalmond;
     border-radius: 50%;
     margin-right: 15%;
-    
 }
 
 .row::after {
@@ -89,4 +94,3 @@ footer {
 p {
     font-style: italic;
 }
-
