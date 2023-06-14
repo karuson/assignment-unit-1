@@ -40,7 +40,6 @@ header {
 h2 {
     padding: 10px;
     text-align: center;
-   
 }
 
 ul {
@@ -62,17 +61,13 @@ ul {
     margin-left: 15%;
 }
 
-.dog p {
-    display: block;
-    float: left;
-}
-
 .coyote {
     display: block;
     float: right;
     border: solid 3px blanchedalmond;
     border-radius: 50%;
     margin-right: 15%;
+    
 }
 
 .row::after {
@@ -81,7 +76,7 @@ ul {
     clear: both;
 }
 
-.footer {
+footer {
     margin-top: 20px;
     padding: 20px;
     text-align: center;
